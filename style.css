@@ -211,3 +211,25 @@ body.papers-page {
     text-align: center;
   }
 }
+
+
+@media (max-width: 768px) {
+  section {
+    padding: 20px 10px;
+    width: 95%;
+  }
+
+  section h1 {
+    font-size: 1.2rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  img {
+    max-width: 150px;
+    height: auto;
+  }
+}
+
