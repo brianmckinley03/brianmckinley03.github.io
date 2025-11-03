@@ -173,15 +173,18 @@ body.papers-page {
     margin-bottom: 10px;
   }
 
-  .navbar nav {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+  .navbar {
+  padding: 7.5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
   }
 
   .navbar nav a {
     margin: 5px 0;
-    font-size: 16px;
+    font-size: 10px;
   }
 
   main {
@@ -212,7 +215,7 @@ body.papers-page {
   }
 }
 
-
+/* /////////////////////////  */
 @media (max-width: 768px) {
   section {
     padding: 20px 10px;
@@ -232,4 +235,5 @@ body.papers-page {
     height: auto;
   }
 }
+
 
