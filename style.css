@@ -163,23 +163,16 @@ body.papers-page {
 ====================== */
 @media (max-width: 768px) {
   .navbar {
-    padding: 10px;
-    flex-direction: column;
+    padding: 7.5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
 
   .navbar .logo {
     font-size: 20px;
     margin-bottom: 10px;
-  }
-
-  .navbar {
-  padding: 7.5px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
   }
 
   .navbar nav a {
@@ -235,5 +228,3 @@ body.papers-page {
     height: auto;
   }
 }
-
-
